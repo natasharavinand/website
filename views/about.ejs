@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <%- include('partials/head'); %>
+  <%- include('partials/head'); %>
 </head>
+
 <body>
   <nav class="navbar navbar-expand-lg navbar-light">
     <a class="navbar-brand" href="/">Natasha Ravinand</a>
@@ -13,13 +15,47 @@
       <div class="navbar-nav">
         <a class="nav-item nav-link active" href="/">Home<span class="sr-only">(current)</span></a>
         <a class="nav-item nav-link" href="/about">About Me</a>
-        <a class="nav-item nav-link" href="/writings">Writings</a>
       </div>
     </div>
   </nav>
 
-  <h2>About Me</h2>
 
+  <div class="container about-me" data-aos="fade-up" data-aos-duration="1100">
+    <h1 class="about-me-header pink-underline">About Me</h1>
+    <p>
+      I'm a rising sophomore at Yale University pursuing a degree in Statistics & Data Science, with academic interests at the intersection of political science and technology.
+      I'm passionate about how technology and big data can be used to develop high-impact solutions to social problems. Among other things, I'm interested in consulting,
+      product management, and developing social-impact tech.
+    </p>
+    <div class="row tech-proficiencies">
+      <div class="col-sm">
+        <img src="images/at_yale.jpeg" alt="">
+      </div>
+      <div class="col-sm">
+        <h4 class="pink-underline">Technical Proficiencies</h4>
+        <p>My language proficiencies include Python, R, SQL, JavaScript, and HTML/CSS.</p>
+        <p>I'm additionally open to consulting, product, and strategy work.</p>
+        <ul>
+          <li class="tech-header pink-underline">Data Analytics & Machine Learning</li>
+          <ul>
+            <li>Pandas, NumPy, SciPy, scikit-learn, and the tidyverse</li>
+          </ul>
+          <li class="tech-header pink-underline">Data Visualization</li>
+          <ul>
+            <li>Matplotlib, Seaborn, ggplot2</li>
+          </ul>
+          <li class="tech-header pink-underline">Full-Stack Web Development</li>
+          <ul>
+            <li>HTML/CSS, Bootstrap, Javascript (Node.js/Express.js)</li>
+          </ul>
+          <li class="tech-header pink-underline">Database Manipulation</li>
+          <ul>
+            <li>PostgreSQL, MongoDB</li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+  </div>
 
 </body>
 <footer>

@@ -1,37 +1,55 @@
+/* Website wide*/
+::-moz-selection {
+  background-color: #f78279;
+  color: #fff;
+}
+
+::selection {
+  background-color: #f78279;
+  color: #fff;
+}
+
 body {
-  font-family:'Raleway';
+  font-family: 'Raleway';
+  background-color:#fcf1f0;
 }
 
 .navbar a {
-  font-family:'Montserrat' !important;
+  font-family: 'Montserrat' !important;
   text-transform: uppercase;
-  font-size:1.2rem;
+  font-size: 1.2rem;
 }
 
+.pink-underline {
+  text-decoration: underline;
+  text-decoration-color: #f78279;
+}
+
+/* Landing styling */
 .landing-greeting {
-  margin-top:8%;
+  margin-top: 8%;
 }
 
 .landing-greeting img {
-  margin-top:11%;
+  margin-top: 11%;
   max-width: 65%;
   height: auto;
 }
 
 .landing-greeting button {
-  padding-left:4%;
-  padding-right:4%;
-  margin-right:1%;
-  margin-top:2%;
+  padding-left: 4%;
+  padding-right: 4%;
+  margin-right: 1%;
+  margin-top: 2%;
 }
 
 .greeting-text {
-  margin-right:8%;
+  margin-right: 8%;
 }
 
 .greeting-text h1 {
   font-weight: 400;
-  margin-bottom:6%;
+  margin-bottom: 6%;
 }
 
 .greeting-text h3 {
@@ -39,5 +57,31 @@ body {
 }
 
 .greeting-text p {
-  margin-top:5%;
+  margin-top: 5%;
+}
+
+/* About Me styling */
+.about-me {
+  margin-top: 3%;
+}
+
+.about-me-header {
+  font-weight: 400;
+  margin-bottom: 2%;
+}
+
+.tech-proficiencies {
+  margin-top: 5%;
+}
+
+.about-me img {
+  border-radius: 15%;
+  width: 95%;
+  height: auto;
+  margin-top: 2%;
+}
+
+.tech-header {
+  margin-top: 1.5%;
+  font-weight: 500;
 }
