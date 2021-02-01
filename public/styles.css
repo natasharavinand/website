@@ -1,0 +1,31 @@
+body {
+  font-family:'Raleway';
+}
+
+.navbar a {
+  font-family:'Montserrat' !important;
+  text-transform: uppercase;
+  font-size:1.2rem;
+}
+
+.landing-greeting {
+  padding-top:10%;
+}
+
+.landing-greeting img {
+  max-width: 65%;
+  height: auto;
+}
+
+.greeting-text {
+  margin-right:8%;
+}
+
+.greeting-text h1 {
+  font-weight: 400;
+  margin-bottom:6%;
+}
+
+.greeting-text h3 {
+  font-weight: 300;
+}
