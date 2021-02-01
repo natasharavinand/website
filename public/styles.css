@@ -9,12 +9,20 @@ body {
 }
 
 .landing-greeting {
-  padding-top:10%;
+  margin-top:8%;
 }
 
 .landing-greeting img {
+  margin-top:10%;
   max-width: 65%;
   height: auto;
+}
+
+.landing-greeting button {
+  padding-left:7%;
+  padding-right:7%;
+  margin-right:4%;
+  margin-top:2%;
 }
 
 .greeting-text {
@@ -28,4 +36,8 @@ body {
 
 .greeting-text h3 {
   font-weight: 300;
+}
+
+.greeting-text p {
+  margin-top:5%;
 }
