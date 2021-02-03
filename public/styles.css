@@ -77,16 +77,17 @@ body {
 
 /* About Me styling */
 .about-me {
-  margin-top: 2%;
+  margin-top: 1.5%;
 }
 
 .about-me-header {
   font-weight: 400;
-  margin-bottom: 3%;
+  margin-bottom: 2%;
 }
 
 .tech-proficiencies {
   margin-top: 4%;
+  margin-bottom: 4%;
 }
 
 .about-me img {
@@ -94,7 +95,7 @@ body {
   width: 99%;
   height: auto;
   margin-top: 4%;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
 }
 
 .tech-header {
