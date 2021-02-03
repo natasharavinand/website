@@ -18,8 +18,5 @@ app.get('/about', function(req, res) {
     res.render('about');
 });
 
-app.get('/writings', function(req, res) {
-    res.render('writings');
-});
 
 app.listen(3000);

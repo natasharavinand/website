@@ -11,7 +11,7 @@
 
 body {
   font-family: 'Raleway';
-  background-color:#faf5f5;
+  background-color: #faf5f5;
   min-height: 100%;
 }
 
@@ -38,8 +38,7 @@ body {
   font-weight: 500;
 }
 
-.footer {
-}
+.footer {}
 
 /* Landing styling */
 .landing-greeting {
