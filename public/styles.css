@@ -13,6 +13,7 @@ body {
   font-family: 'Raleway';
   background-color: #faf5f5;
   min-height: 100%;
+  padding:1% 5%;
 }
 
 p {
@@ -91,7 +92,7 @@ p {
 }
 
 .tech-proficiencies {
-  margin-top: 1%;
+  margin-top: 2%;
   margin-bottom: 4%;
 }
 
@@ -103,7 +104,13 @@ p {
   margin-bottom: 3%;
 }
 
+.about-me h4 {
+  margin-top: 5%;
+}
+
 .tech-header {
   margin-top: 1.5%;
   font-weight: 500;
 }
+
+
